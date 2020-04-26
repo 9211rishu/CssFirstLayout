@@ -7,6 +7,19 @@ header {
   height: 150px;
   background-color: blueviolet;
 }
+header .logo-box {
+  width: 50%;
+  display: inline-block;
+}
+header nav {
+  width: 50%;
+  display: inline-block;
+  margin-left: -4px;
+  margin-left: -4px;
+}
+header .logo-box .logo {
+  width: 100px;
+}
 main {
   height: 750px;
 }
@@ -18,21 +31,15 @@ main .sidebar {
 }
 main .body {
   width: 75%;
+  margin-left: -4px;
   height: inherit;
   background-color: darkgreen;
   display: inline-block;
 }
 nav .list {
   list-style: none;
-  float: right;
 }
 nav .list-item {
-  float: left;
-}
-nav::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 nav .item-link {
   text-decoration: none;
