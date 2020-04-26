@@ -1,44 +1,44 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 header {
-    height: 150px;
-    background-color: blueviolet;
+  height: 150px;
+  background-color: blueviolet;
 }
-main{
-    height: 750px;
+main {
+  height: 750px;
 }
-main .sidebar{
-    background-color: chartreuse;
-    width: 25%;
-    height: inherit;
-    display: inline-block;
+main .sidebar {
+  background-color: chartreuse;
+  width: 25%;
+  height: inherit;
+  display: inline-block;
 }
-main .body{
-    width: 75%;
-    height: inherit;
-    background-color: darkgreen;
-    display: inline-block;
+main .body {
+  width: 75%;
+  height: inherit;
+  background-color: darkgreen;
+  display: inline-block;
 }
-nav .list{
-    list-style: none;
-    float: right;
+nav .list {
+  list-style: none;
+  float: right;
 }
-nav .list-item{
-    float: left;
+nav .list-item {
+  float: left;
 }
-nav::after{
-    content: '';
-    display: table;
-    clear: both;
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-nav .item-link{
-    text-decoration: none;
-    background-color: brown;
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px 20px;
+nav .item-link {
+  text-decoration: none;
+  background-color: brown;
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 20px;
 }
