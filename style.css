@@ -30,6 +30,8 @@ nav .list {
   transform: translateY(-50%);
   list-style: none;
   margin: 0 20px;
+  background-color: brown;
+  padding: 10px 20px;
   right: 0;
 }
 nav .list-item{
@@ -37,7 +39,6 @@ nav .list-item{
 }
 nav .item-link {
   text-decoration: none;
-  background-color: brown;
   color: white;
   padding: 10px 20px;
 }
