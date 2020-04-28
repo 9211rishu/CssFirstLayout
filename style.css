@@ -57,4 +57,44 @@ main .body {
   height: inherit;
   background-color: darkgreen;
   display: inline-block;
+  vertical-align: top;
+}
+.card{
+  border-radius: 5px;
+  min-height: 350px;
+  max-width: 250px;
+  background-color: #eee;
+  box-shadow: 5px 5px #11111122;
+  margin: 20px auto;
+}
+.card-image{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.dp{
+  max-width: 50px;
+  border-radius: 50%;
+}
+.card .info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7%;
+}
+.card .info h3{
+  margin-top: 2px;
+}
+.card .profession{
+  margin-top: 3px;
+}
+.post img{
+  width: 100%;
+}
+.content{
+  margin: 5px;
+}
+.btn button {
+  margin: 5px 5px;
+  padding: 4px 10px;
 }
